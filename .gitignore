@@ -1,0 +1,53 @@
+# ==========================================
+# Gitignore for Altium Designer
+# ==========================================
+
+# --- Core Altium Outputs & Backups ---
+# Ignore the entire project history folder (Altium's local backups)
+History/
+
+# Ignore automatically generated outputs and previews
+Project\ Outputs*/
+ProjectOutputs/
+__Preview/
+
+# --- Log & Status Files ---
+# Altium creates these during compilation and ERC/DRC checks
+*.Annotation
+*.ConstraintControl
+*.LOG
+*.Log
+*.REP
+*.Rep
+*.Status
+*.Txt
+*.err
+*.rcs
+
+# --- Local User Settings & Workspace Data ---
+# These files store your personal window layouts, open tabs, and local preferences
+*.PcbDoc.DesignerViews
+*.SchDoc.Zip
+*.WorkspaceStorage
+*.vcl
+*.drc
+
+# --- Temporary & Lock Files ---
+# Prevents tracking temporary lock files when documents are open
+*.~*
+*.tmp
+
+# --- Manufacturing/CAM Outputs (Optional but Recommended) ---
+# If you generate Gerbers, NC Drills, or BOMs, they usually belong in a release, not Git.
+# Un-comment the lines below if you want to ignore them.
+# *.GBL
+# *.GBO
+# *.GBP
+# *.GBS
+# *.GTL
+# *.GTO
+# *.GTP
+# *.GTS
+# *.TXT
+# *.DRL
+# *.gbr
