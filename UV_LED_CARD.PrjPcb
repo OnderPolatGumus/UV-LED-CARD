@@ -83,69 +83,64 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JUBRCHMP
 
-[Document3]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UV_LED_CARD\Design Rule Check - UV_LED_CARD.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.EXTREP
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBL
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBO
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBP
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBS
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GM
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTL
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GM
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTO
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTP
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTS
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument12]
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
 DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.REP
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for UV_LED_CARD\UV_LED_CARD.TXT
 DItemRevisionGUID=
 
 [Configuration1]
@@ -401,6 +396,10 @@ OutputName1=NC Drill Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+Configuration1_Name1=ForceUpdateSettings
+Configuration1_Item1=False
+Configuration1_Name2=OutputConfigurationParameter1
+Configuration1_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\onderpolatgumus\Desktop\UV-LED-CARD\UV_LED_CARD.PcbDoc
 OutputType2=Mask
 OutputName2=Solder/Paste Mask Prints
 OutputDocumentPath2=
